@@ -1,0 +1,40 @@
+body {
+    margin: auto;
+    max-width: 750px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #111111 solid 1px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    width: 90px;
+}
+
+a {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:active {
+    font-weight: bold;
+}
+
+li a:hover {
+    font-weight: bold;
+}
