@@ -64,6 +64,10 @@ h3 {
     font-size: 3vw;
 }
 
+a {
+    color:rgb(111, 209, 206);
+}
+
 .programs img {
     width: 25vw;
     border-radius: 10%;
